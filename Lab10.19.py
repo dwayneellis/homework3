@@ -26,11 +26,11 @@ class ItemToPurchase:
 
 class ShoppingCart:
 
-    def __init__(self, customer_name='none', current_date='January 1, 2016', cart_items=[]):
+    def __init__(self, customer_name='none', date='January 1, 2016', cart_items=[]):
 
         self.customer_name = customer_name
 
-        self.current_date = current_date
+        self.current_date = date
 
         self.cart_items = cart_items
 
@@ -152,11 +152,11 @@ def print_menu(new_cart):
 
             'a - Add item to cart\n'
 
-            'r - Remove item from the cart\n'
+            'r - Remove item from cart\n'
 
             'c - Change item quantity\n'
 
-            "i - Output item's descriptions\n"
+            "i - Output items' descriptions\n"
 
             'o - Output shopping cart\n'
 
@@ -168,7 +168,10 @@ def print_menu(new_cart):
 
         print(menu)
 
-        command = input('Choose an option:')
+        command = input('Choose an option:\n')
+        command = input('Choose an option:\n')
+        command = input('Choose an option:\n')
+
 
         while (
                 command != 'a' and command != 'o' and command != 'i' and command != 'q'
@@ -187,7 +190,7 @@ def print_menu(new_cart):
 
             item_quantity = int(input('Enter the item quantity:\n'))
 
-            item_to_purchase = item_to_purchase(item_name, item_price, item_quantity, item_description)
+            item_to_purchase = ItemToPurchase(item_name, item_price, item_quantity, item_description)
 
             customer_cart.add_item(item_to_purchase)
 
@@ -233,6 +236,6 @@ if __name__ == "__main__":
 
     print("Today's date: %s" % current_date)
 
-    newCart = ShoppingCart(customer_name, current_date)
+    new_cart = ShoppingCart(customer_name, current_date)
 
-    print_menu(newCart)
+    print_menu(new_cart)
