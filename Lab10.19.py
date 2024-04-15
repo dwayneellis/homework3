@@ -1,6 +1,6 @@
 # CIS 2348 Homework 3 Fall 2020.
 # Dwayne Ellis
-# Student ID: 0833810
+# Student ID: #######
 # Lab 10.19 Online shopping (Part 2)
 # This program extends the earlier "Online shopping cart" program.
 
