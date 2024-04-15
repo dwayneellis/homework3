@@ -1,6 +1,6 @@
 # CIS 2348 Homework 3 Fall 2020.
 # Dwayne Ellis
-# Student ID: 0833810
+# Student ID: #######
 # Lab 10.11 Nutritional information
 # Define constructor with parameters to initialize instance attributes (name, fat, carbs, protein)
 
