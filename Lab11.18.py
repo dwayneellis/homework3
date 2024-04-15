@@ -1,6 +1,6 @@
 # CIS 2348 Homework 3 Fall 2020.
 # Dwayne Ellis
-# Student ID: 0833810
+# Student ID: #######
 # Lab 11.18 Filter and sort a list
 # Write a program that gets a list of integers from input, and outputs non-negative integers in ascending order
 
