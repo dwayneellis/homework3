@@ -1,6 +1,6 @@
 # CIS 2348 Homework 3 Fall 2020.
 # Dwayne Ellis
-# Student ID: 0833810
+# Student ID: #######
 # Lab 11.22 Word frequencies
 # Write a program that reads a list of words. Then, the program outputs those words and their frequencies.
 
