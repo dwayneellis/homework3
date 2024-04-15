@@ -1,6 +1,6 @@
 # CIS 2348 Homework 3 Fall 2020.
 # Dwayne Ellis
-# Student ID: 0833810
+# Student ID: #######
 # Lab 11.27 Soccer team roster (Dictionaries)
 # This program will store roster and rating information for a soccer team. Coaches rate players
 # during tryouts to ensure a balanced team.
